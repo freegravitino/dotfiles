@@ -108,3 +108,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export LC_ALL="en_US.UTF-8"
+export PYTHONPATH=$PYTHONPATH:~/QT/cffex/analytics
+export EDITOR=vim
