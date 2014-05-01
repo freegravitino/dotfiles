@@ -35,9 +35,10 @@ filetype plugin indent on " required
 syntax enable             " enable syntax highlighting (previously syntax on).
 
 let g:solarized_termcolors=256
-set t_Co=256
+set t_Co=16
 set background=dark
 colorscheme solarized     " set colorscheme
+"set t_Co=16
 
 set number                " show line numbers
 set laststatus=2          " last window always has a statusline
@@ -54,7 +55,15 @@ set shiftround            " always indent/outdent to the nearest tabstop
 set expandtab             " use spaces instead of tabs
 set nowrap                " don't wrap text
 set backspace=indent,eol,start
+
 map <F2> :NERDTreeToggle<CR>
+
+imap <esc>OH <esc>0i
+cmap <esc>OH <home>
+nmap <esc>OH 0
+imap <esc>OF <esc>$a
+cmap <esc>OF <end>
+nmap <esc>OF $
 
 " Python-mode
 " Activate rope

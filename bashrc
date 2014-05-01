@@ -109,4 +109,6 @@ fi
 
 export LC_ALL="en_US.UTF-8"
 export PYTHONPATH=$PYTHONPATH:~/QT/cffex/analytics
+export QATPATH=~/QT/cffex/tradeinfra/src
+export ANALYTICS=~/QT/cffex/analytics
 export EDITOR=vim
