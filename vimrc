@@ -40,6 +40,7 @@ set background=dark
 colorscheme solarized     " set colorscheme
 "set t_Co=16
 
+let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 set number                " show line numbers
 set laststatus=2          " last window always has a statusline
 "filetype indent on        " activates indenting for files
