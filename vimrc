@@ -13,7 +13,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'klen/python-mode'
 "Plugin 'davidhalter/jedi-vim'
 "Plugin 'ervandew/supertab'
-
+Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
